@@ -12,8 +12,11 @@ This Python script builds a series by concatenating numbers from 1 up to a user-
 ---Example---
 
 Enter the last number to consider in the series: 15
+
 Enter the digit position (1-based): 12
+
 Series: 123456789101112131415
+
 The digit at position 12 is part of number 11.
 
 
