@@ -1,0 +1,21 @@
+n = int(input("Enter the last number to consider in the series: "))
+pos = int(input("Enter the digit position (1-based): "))
+
+series = ""
+count = 0
+found_number = None
+
+# Build the series and find which number's digit is at 'pos'
+for i in range(1, n + 1):
+    digits = str(i)
+    series += digits
+    if count + len(digits) >= pos and found_number is None:
+        found_number = i
+    count += len(digits)
+
+# Output the results
+print("Series:", series)
+if found_number and pos <= len(series):
+    print(f"The digit at position {pos} is part of number {found_number}.")
+else:
+    print("Position out of range.")
