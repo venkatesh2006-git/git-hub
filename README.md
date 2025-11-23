@@ -4,17 +4,20 @@ TITLE : POSITION FINDER IN NUMBER SERIES
 
 This Python project generates a concatenated series of numbers from 1 up to a user-defined limit and identifies which number contains a digit at a specified position. It’s a simple yet interesting program for understanding string manipulation and indexing in Python.
 
+
 2.	Features:
 
 1.	Accepts user input for the end number of the series (n) and digit position (pos).
 2.	Constructs a continuous string of numbers from 1 to n.
 3.	Efficiently determines which number’s digit corresponds to the given position.
 4.	Handles out-of-range positions gracefully.
+   
 
 3.	Technologies/Tools Used:
 
       1.  Python 3.x: Core programming language for script execution
       2.  Standard Python libraries: No external dependencies required, making it easy to run   on any system with Python installed.
+         
 
 4.	Steps to Install & Run the Project:
 
@@ -33,6 +36,8 @@ This Python project generates a concatenated series of numbers from 1 up to a us
 
 5.	When prompted, enter the last number for the series and the digit position to find.
 
+
+
 5.	Instructions for Testing:
 
 To test the project manually:
@@ -44,7 +49,9 @@ b.	Correct number identification for the digit at the specified position.
 c.	Appropriate message when the position is out of range.
 For automated testing, you could extend the project using Python's unittest framework to automate input-output assertions.
 
-Sample OUTPUT :1 if digit in range 
+
+
+6. Sample OUTPUT :1 if digit in range 
 
 Enter the last number to consider in the series: 15
 Enter the digit position (1-based): 12
