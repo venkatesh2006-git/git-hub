@@ -1,11 +1,11 @@
 TITLE : POSITION FINDER IN NUMBER SERIES
 
-1.	Overview:
+  #  Overview:
 
 This Python project generates a concatenated series of numbers from 1 up to a user-defined limit and identifies which number contains a digit at a specified position. It’s a simple yet interesting program for understanding string manipulation and indexing in Python.
 
 
-2.	Features:
+#  Features:
 
 1.	Accepts user input for the end number of the series (n) and digit position (pos).
 2.	Constructs a continuous string of numbers from 1 to n.
@@ -13,13 +13,13 @@ This Python project generates a concatenated series of numbers from 1 up to a us
 4.	Handles out-of-range positions gracefully.
    
 
-3.	Technologies/Tools Used:
+ #   Technologies/Tools Used:
 
-      1.  Python 3.x: Core programming language for script execution
-      2.  Standard Python libraries: No external dependencies required, making it easy to run   on any system with Python installed.
+ 1.  Python 3.x: Core programming language for script execution
+ 2.  Standard Python libraries: No external dependencies required, making it easy to run   on any system with Python installed.
          
 
-4.	Steps to Install & Run the Project:
+ #  Steps to Install & Run the Project:
 
 1.	Ensure Python 3 is installed on your system. You can download it from python.org.
 2.	Download or clone the project repository:
@@ -38,7 +38,7 @@ This Python project generates a concatenated series of numbers from 1 up to a us
 
 
 
-5.	Instructions for Testing:
+#  Instructions for Testing:
 
 To test the project manually:
 1.	Run the script.
@@ -51,14 +51,14 @@ For automated testing, you could extend the project using Python's unittest fram
 
 
 
-6. Sample OUTPUT :1 if digit in range 
+#  Sample OUTPUT :1 if digit in range 
 
 Enter the last number to consider in the series: 15
 Enter the digit position (1-based): 12
 Series: 123456789101112131415
 The digit at position 12 is part of number 11.
 
-Sample OUTPUT :2 if digit not in ranmge 
+#  Sample OUTPUT :2 if digit not in ranmge 
 
 Enter the last number to consider in the series: 15
 Enter the digit position (1-based): 30
