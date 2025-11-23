@@ -32,7 +32,7 @@ This Python project generates a concatenated series of numbers from 1 up to a us
 
 4.	Run the Python script in your terminal or command prompt:
 
-                       python digit_finder.py
+                       final-git project.py
 
 5.	When prompted, enter the last number for the series and the digit position to find.
 
