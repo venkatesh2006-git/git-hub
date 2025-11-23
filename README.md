@@ -1,3 +1,5 @@
+TITLE : POSITION FINDER IN NUMBER SERIES
+
 1.	Overview:
 
 This Python project generates a concatenated series of numbers from 1 up to a user-defined limit and identifies which number contains a digit at a specified position. It’s a simple yet interesting program for understanding string manipulation and indexing in Python.
