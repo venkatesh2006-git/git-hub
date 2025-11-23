@@ -1,46 +1,44 @@
---Description--
+1.	Overview:
 
-This Python script builds a series by concatenating numbers from 1 up to a user-provided value `n`. It then finds and reports which number contains the digit at a specified position (`pos`) within this concatenated series.
+This Python project generates a concatenated series of numbers from 1 up to a user-defined limit and identifies which number contains a digit at a specified position. It’s a simple yet interesting program for understanding string manipulation and indexing in Python.
 
----Usage---
+2.	Features:
 
-1. Run the script.
-2. When prompted, input the last number `n` to consider in the series.
-3. Input the digit position `pos` (1-based index).
-4. The script outputs the entire concatenated series and indicates which number the digit at the selected position belongs to.
+1.	Accepts user input for the end number of the series (n) and digit position (pos).
+2.	Constructs a continuous string of numbers from 1 to n.
+3.	Efficiently determines which number’s digit corresponds to the given position.
+4.	Handles out-of-range positions gracefully.
 
----Example---
+3.	Technologies/Tools Used:
 
-Enter the last number to consider in the series: 15
+      1.  Python 3.x: Core programming language for script execution
+      2.  Standard Python libraries: No external dependencies required, making it easy to run   on any system with Python installed.
 
-Enter the digit position (1-based): 12
+4.	Steps to Install & Run the Project:
 
-Series: 123456789101112131415
+1.	Ensure Python 3 is installed on your system. You can download it from python.org.
+2.	Download or clone the project repository:
 
-The digit at position 12 is part of number 11.
+                     git clone <repository-url>
 
+3.	Navigate to the project directory:
 
-## How It Works
+                      cd <project-directory>
 
-- The script iterates over numbers from 1 to `n`, converting each to a string and appending it to a series string.
-- It tracks the cumulative length of this series.
-- Once the cumulative length surpasses or equals the requested position, it identifies the number that contains the digit at the given position.
-- It then prints out the series and the result.
+4.	Run the Python script in your terminal or command prompt:
 
-## Limitations
+                       python digit_finder.py
 
-- The position `pos` must be within the total length of the series (sum of the digits of all numbers from 1 to `n`).
-- No error handling is implemented for invalid inputs (e.g., zero, negative numbers, or non-integers).
+5.	When prompted, enter the last number for the series and the digit position to find.
 
-## Requirements
+5.	Instructions for Testing:
 
-- Python 3.x
-
-## Running
-
-Run the script in any environment that supports Python 3.x by simply executing the script file.
-
----
-
-This script is a straightforward demonstration of string manipulation and indexing in Python.
+To test the project manually:
+1.	Run the script.
+2.	Input various values for n (e.g., 10, 100) and pos (valid positions within or beyond the series length).
+3.	Verify the output:
+a.	The series string should be correctly formed.
+b.	Correct number identification for the digit at the specified position.
+c.	Appropriate message when the position is out of range.
+For automated testing, you could extend the project using Python's unittest framework to automate input-output assertions.
 
