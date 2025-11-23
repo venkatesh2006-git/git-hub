@@ -44,3 +44,17 @@ b.	Correct number identification for the digit at the specified position.
 c.	Appropriate message when the position is out of range.
 For automated testing, you could extend the project using Python's unittest framework to automate input-output assertions.
 
+Sample OUTPUT :1 if digit in range 
+
+Enter the last number to consider in the series: 15
+Enter the digit position (1-based): 12
+Series: 123456789101112131415
+The digit at position 12 is part of number 11.
+
+Sample OUTPUT :2 if digit not in ranmge 
+
+Enter the last number to consider in the series: 15
+Enter the digit position (1-based): 30
+Series: 123456789101112131415
+Position out of range.
+
